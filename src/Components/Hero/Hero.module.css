@@ -1,0 +1,139 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15%;
+  margin-top: 100px;
+  gap: 30px;
+  position: relative;
+}
+
+.content {
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+
+.description {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 55px;
+}
+
+.downloadBtn {
+  text-decoration: none;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  padding: 15px 30px;
+  font-size: 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  transition: background-color 0.15s ease;
+}
+.downloadBtn:hover {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.heroImg {
+  width: 40%;
+  border-radius: 50%;
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.topBlur {
+  position: absolute;
+  background-color: var(--color-primary);
+  width: 700px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(100px);
+  opacity: 20%;
+  top: -400px;
+  left: -20vw;
+}
+
+.bottomBlur {
+  position: absolute;
+  background-color: var(--color-primary);
+  width: 700px;
+  aspect-ratio: 1/1;
+  z-index: 0;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 20%;
+  bottom: -400px;
+  right: -20vw;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, -5px);
+  }
+
+  50% {
+    transform: translate(0, 5px);
+  }
+
+  100% {
+    transform: translate(0, -5px);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    margin: 50px 10% 0 10%;
+    /* background-color: var(--color-secondary); */
+  }
+  .content {
+    text-align: center;
+  }
+
+  .title {
+    margin-top: 15px;
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .description {
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .downloadBtn {
+    font-size: 20px;
+    padding: 15px 25px;
+  }
+
+  .heroImg {
+    width: 90%;
+    animation-duration: 4s;
+  }
+
+  @keyframes floating {
+    0% {
+      transform: translate(0, -2px);
+    }
+    50% {
+      transform: translate(0, 2px);
+    }
+    100% {
+      transform: translate(0, -2px);
+    }
+  }
+}

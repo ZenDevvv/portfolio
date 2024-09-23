@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Scidama Online",
+        "imageSrc": "projects/scidama.png",
+        "description": "PVP Scidama game",
+        "skills": ["Javascript", "NodeJS", "Socket.io"],
+        "demo": "https://scidama.onrender.com",
+        "source": "https://github.com/ZenDevvv/Cyclic"
+
+    },
+    {
+        "title": "Weather App",
+        "imageSrc": "projects/clouds.png",
+        "description": "A weather app using weather API",
+        "skills": ["HTML", "CSS", "Javascript", "API"],
+        "demo": "https://zendevvv.github.io/Weather-app/",
+        "source": "https://github.com/ZenDevvv/Weather-app"
+
+    },
+    {
+        "title": "Frontend Project",
+        "imageSrc": "projects/Header Illustration.png",
+        "description": "A frontend project using react from a figma design",
+        "skills": ["HTML", "CSS", "ReactJS", "JSON"],
+        "demo": "https://zendevvv-frontend-project.netlify.app",
+        "source": "https://github.com/ZenDevvv/Frontend-project"
+    },
+    {
+        "title": "Mini Expenses Tracker",
+        "imageSrc": "projects/expense tracker.png",
+        "description": "A fullstack development and deployment project using MySQL, Express, React, and Node.js with CRUD functionalities.",
+        "skills": ["Fullstack", "React", "MySQL", "Node", "Express", "RESTful API"],
+        "demo": "https://mini-expenses-tracker.netlify.app/",
+        "source": "https://github.com/ZenDevvv/mini-expense-tracker-backend"
+    },
+    {
+        "title": "Astronomy of the Day",
+        "imageSrc": "projects/NASA.png",
+        "description": "A simple project that uses NASA api to fetch APOD data",
+        "skills": ["HTML", "CSS", "React", "API"],
+        "demo": "https://zendevvv-apod.netlify.app",
+        "source": "https://github.com/ZenDevvv/APOD-project"
+    }
+]

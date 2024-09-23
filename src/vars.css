@@ -1,0 +1,8 @@
+:root {
+    --color-bg: #222831;
+    --color-text: #EEEEEE;
+    --color-secondary: #393E46;
+    --color-primary: #FFD369;
+
+    --color-secondary-highlight: hsl(217, 10%, 34%);
+}

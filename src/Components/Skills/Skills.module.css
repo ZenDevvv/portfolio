@@ -1,0 +1,88 @@
+@import "../../vars.css";
+
+.container {
+  margin: 0 15%;
+  margin-top: 120px;
+  padding: 70px;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  padding: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  position-try: relative;
+  transition: all 0.3s ease;
+}
+.skillImageContainer:hover {
+    background-color: var(--color-secondary-highlight);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.362);
+
+}
+
+.skill p {
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin: 120px 10% 0 10%;
+    padding: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

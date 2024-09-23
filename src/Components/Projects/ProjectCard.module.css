@@ -1,0 +1,85 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  background-color: var(--color-secondary);
+  padding: 15px 20px 20px 20px;
+  border-radius: 20px;
+  max-width: 320px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+
+}
+
+.container:hover {
+  background-color: var(--color-secondary-highlight);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.362);
+  z-index: 2;
+}
+
+.image {
+  border-radius: 25px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.texts .title {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.texts .description {
+  /* margin-top: 5px; */
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.techs {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+
+.techs li {
+  list-style: none;
+  background-color: var(--color-bg);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.links a {
+  color: var(--color-bg);
+  background-color: var(--color-primary);
+  text-decoration: none;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
