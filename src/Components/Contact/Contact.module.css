@@ -4,19 +4,20 @@
     margin-top: 120px;
     padding: 80px 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
     color: var(--color-bg);
     background-color: var(--color-primary);
+    gap: 30px;
 }
 
 .left h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 800;
 }
 
 .left h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -25,7 +26,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
+    width: auto;
 }
 
 .link {
@@ -34,13 +36,14 @@
 }
 
 .link img {
-    margin-right: 20px;
+    margin-right: 14px;
+    width: 35px;
 }
 
 .link a{
     color: var(--color-bg);
     text-decoration: none;
-    font-size: 23px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -55,15 +58,21 @@
         gap: 40px;
     }
 
+
     .left h1 {
         font-size: 40px;
     }
+
     .left h2 {
         font-size: 25px;
     }
 
     .left{
         text-align: center;
+    }
+
+    .links {
+        margin: auto;   
     }
 
     .link img {
@@ -73,6 +82,5 @@
 
     .link a {
         font-size: 18px;
-        
     }
 }

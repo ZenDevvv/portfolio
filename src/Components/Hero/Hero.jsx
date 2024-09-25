@@ -9,8 +9,8 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Zen!</h1>
         <p className={styles.description}>
-          A fresh graduate and an aspiring web developer. I am excited to apply
-          my skills to new challenges.
+          A fresh graduate and a passionate web developer, eager to tackle new
+          challenges and bring creative solutions to life through code.
         </p>
         <a className={styles.downloadBtn} href={cv} target="_blank">
           Download CV
