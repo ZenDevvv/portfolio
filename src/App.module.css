@@ -6,3 +6,17 @@
     width: 100%;
     overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 6px; /* Adjust the width of the scrollbar */
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary); /* Dark color for the scrollbar thumb */
+    border-radius: 10px; /* Optional: round the corners */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg); /* Optional: background color of the scrollbar track */
+  }
