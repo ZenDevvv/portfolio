@@ -24,6 +24,10 @@
         "imageSrc": "skills/mysql.png"
     },
     {
+        "title": "Tailwind",
+        "imageSrc": "skills/tailwind.png"
+    },
+    {
         "title": "Figma",
         "imageSrc": "skills/figma.png"
     },
