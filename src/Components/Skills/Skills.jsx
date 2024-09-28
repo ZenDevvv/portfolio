@@ -9,15 +9,27 @@ const Skills = () => {
     <section
     className={styles.container} id="skills">
       <h1 className={styles.title}>Skills</h1>
-      <div className={styles.skills}>
+      <m.div
+        className={styles.skills}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={{
+          visible: {
+            transition: {
+              staggerChildren: 0.125,
+            },
+          },
+        }}
+      >
         {skills.map((skill, id) => {
           return (
             <m.div
               className={styles.skill} key={id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: id * 0.1 }}
-              viewport={{ once: true }}
+              variants={{
+                hidden: { opacity: 0, y: 20 },
+                visible: { opacity: 1, y: 0 },
+              }}
             >
               <div className={styles.skillImageContainer}>
                 <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
@@ -26,7 +38,7 @@ const Skills = () => {
             </m.div>
           );
         })}
-      </div>
+      </m.div>
     </section>
   );
 };

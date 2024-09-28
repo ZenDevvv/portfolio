@@ -64,8 +64,19 @@ const Contact = () => {
             className={styles.link}
             viewport={{ once: true }}
           >
-            <img src={link.icon} alt="" />
-            <a href={link.href}>{link.text}</a>
+            <m.img 
+              src={link.icon} 
+              alt="" 
+              whileHover={{ scale: 1.1 }} // Add this line to scale the image on hover
+            />
+            <m.a
+              whileHover={{
+                x: 10,
+              }}
+              href={link.href}
+            >
+              {link.text}
+            </m.a>
           </m.li>
         ))}
       </ul>
