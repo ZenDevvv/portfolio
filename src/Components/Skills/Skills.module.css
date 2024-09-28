@@ -17,11 +17,11 @@
 
 .skills {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 30px;
-  column-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
   width: 80%;
   margin: 0 auto;
+  justify-content: center; /* Center items horizontally */
 }
 
 .skill {

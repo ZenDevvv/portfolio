@@ -28,6 +28,7 @@
 }
 
 .downloadBtn {
+  display: inline-block;
   text-decoration: none;
   color: black;
   background-color: var(--color-primary);
@@ -47,10 +48,6 @@
   width: 40%;
   border-radius: 50%;
   z-index: 1;
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
 }
 /* 
 .topBlur {

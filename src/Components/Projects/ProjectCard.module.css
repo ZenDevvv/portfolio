@@ -9,17 +9,17 @@
   padding: 15px 20px 20px 20px;
   border-radius: 20px;
   max-width: 320px;
-  transition: all 0.3s ease;
+
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
 
 }
 
-.container:hover {
+/* .container:hover {
   background-color: var(--color-secondary-highlight);
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.362);
   z-index: 2;
-}
+} */
 
 .image {
   border-radius: 25px;

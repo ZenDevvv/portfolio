@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navBar}>
       <a className={styles.portfolioBtn} href="#">
-        Portfolio
+        ZenDevvv
       </a>
       
       <div className={styles.menuItems}>
