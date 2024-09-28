@@ -40,5 +40,13 @@
         "skills": ["HTML", "CSS", "React", "API"],
         "demo": "https://zendevvv-apod.netlify.app",
         "source": "https://github.com/ZenDevvv/APOD-project"
+    },
+    {
+        "title": "Tailwind Project",
+        "imageSrc": "projects/tailwind.png",
+        "description": "A simple landing page using tailwind and framer motion",
+        "skills": ["React", "Tailwind", "Framer Motion"],
+        "demo": "https://zendevvv-tailwindproject.netlify.app/",
+        "source": "https://github.com/ZenDevvv/tailwind-project"
     }
 ]
